@@ -1,0 +1,86 @@
+body {
+    background: #374765;
+    font-family: Arimo, sans-serif;
+}
+
+.table-size {
+    margin: 24px auto 32px;
+    background: #fafafa;
+}
+
+.table-size table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: #484848;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+tr:nth-child(n) {
+    width: 309px;
+}
+
+td{
+    width: 275px;
+}
+
+.text-pricing-plan {
+    font-size: 30px;
+}
+
+.left-top {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 50px 0;
+}
+
+.price-head {
+    height: 70px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.standart {
+    background: #89c331;
+}
+
+.ultimate {
+    background: #f04a56;
+}
+
+.premium {
+    background: #20807c;
+
+}
+
+.price-dollars {
+    font-size: 60px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.price-dollars:before {
+    content:'$';
+    position: relative;
+    left: 15px;
+}
+
+.price-cents {
+    position: relative;
+    top: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.price-cents:after {
+    content: 'per month';
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: bottom;
+}
