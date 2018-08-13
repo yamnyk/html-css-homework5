@@ -1,0 +1,176 @@
+body {
+    background: #374765;
+    font-family: Arimo, sans-serif;
+}
+
+.table-size {
+    width: 1140px;
+    margin: 20px auto 30px;
+    background: #fafafa;
+}
+
+.table-size table,th,td{
+    color: #484848;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+tr {
+    height: 166px;
+}
+
+tr:first-of-type {
+    height: 110px;
+}
+
+td{
+    width: 157px;
+    border: 1px solid #848484;
+/*border-left: 1px solid #dadada;
+border-right: 1px solid #dadada;
+box-shadow: 2px 0 2px 0 #dadada;*/
+}
+
+td:first-of-type {
+    width: 198px;
+}
+
+.text-pricing-plan {
+    font-size: 20px;
+}
+
+.left-top {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 37px 0;
+}
+
+.price-head {
+    height: 70px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.standart {
+    border: 0;
+    background: #89c331;
+}
+
+.ultimate {
+    border: 0;
+    background: #f04a56;
+}
+
+.premium {
+    border: 0;
+    background: #20807c;
+
+}
+
+.price-dollars {
+    font-size: 36px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.price-dollars:before {
+    content:'$';
+    left: 15px;
+}
+
+.price-cents {
+    top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.price-cents:after {
+    content: 'per month';
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: bottom;
+}
+
+.buy-button {
+    width: 190px;
+    height: 47px;
+    border: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid #343434;
+    border-radius: 5px;
+    background-color: #414141;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.prop-text {
+    color: #484848;
+    font-size: 16px;
+}
+
+.storage:before {
+    content: '\f187';
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    font-size: 24px;
+    display: block;
+    color: #848484;
+    margin-bottom: 8px;
+}
+
+.bandwidth:before {
+    content: '\f382';
+    font-family: Font Awesome\ 5 Free;
+    color: #848484;
+    font-weight: 900;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.email:before {
+    content: '\f0e0';
+    font-family: Font Awesome\ 5 Free;
+    color: #848484;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.support:before {
+    content: '\f1cd';
+    font-family: Font Awesome\ 5 Free;
+    color: #848484;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.products:before {
+    content: '\f1b2';
+    font-family: Font Awesome\ 5 Free;
+    color: #848484;
+    font-weight: 900;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.users:before {
+    content: '\f0c0';
+    font-family: Font Awesome\ 5 Free;
+    color: #848484;
+    font-weight: 900;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 8px;
+}
