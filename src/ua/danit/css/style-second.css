@@ -6,7 +6,6 @@ body {
 .table-size {
     width: 1140px;
     margin: 20px auto 30px;
-    background: #fafafa;
 }
 
 .table-size table,th,td{
@@ -23,16 +22,26 @@ tr:first-of-type {
     height: 110px;
 }
 
+tr:last-of-type {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    box-shadow: 2px 0 2px 0 rgba(0, 0, 0, 0);
+}
+
 td{
     width: 157px;
-    border: 1px solid #848484;
-/*border-left: 1px solid #dadada;
-border-right: 1px solid #dadada;
-box-shadow: 2px 0 2px 0 #dadada;*/
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    box-shadow: 2px 0 2px 0 rgba(0, 0, 0, 0.27);
 }
 
 td:first-of-type {
     width: 198px;
+}
+
+td:nth-of-type(2n) {
+    background-color: #e3e3e3;
 }
 
 .text-pricing-plan {
@@ -43,10 +52,10 @@ td:first-of-type {
     font-size: 14px;
     font-weight: 700;
     padding: 37px 0;
+    background-color: #fafafa;
 }
 
 .price-head {
-    height: 70px;
     font-size: 24px;
     font-weight: 700;
     color: white;
@@ -68,38 +77,35 @@ td:first-of-type {
 
 }
 
+.price-text {
+    margin-bottom: 20px;
+}
+
 .price-dollars {
     font-size: 36px;
     font-weight: bold;
     display: inline-block;
-}
-
-.price-dollars:before {
-    content:'$';
-    left: 15px;
+    margin-bottom: 20px;
 }
 
 .price-cents {
-    top: 5px;
     font-size: 18px;
     font-weight: bold;
-    vertical-align: top;
-    display: inline-block;
-    text-align: left;
-
+    position: relative;
+    bottom: 15px;
 }
 
 .price-cents:after {
     content: 'per month';
-    display: block;
     font-size: 14px;
-    font-weight: 400;
-    vertical-align: bottom;
+    font-weight: 700;
+    position: relative;
+    bottom: -5px;
 }
 
 .buy-button {
-    width: 190px;
-    height: 47px;
+    width: 142px;
+    height: 40px;
     border: 0;
     border-top: 5px solid transparent;
     border-bottom: 5px solid #343434;

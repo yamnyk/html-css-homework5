@@ -90,7 +90,7 @@ td:last-of-type {
     content: 'per month';
     font-size: 18px;
     font-weight: 400;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 .offer-props {
