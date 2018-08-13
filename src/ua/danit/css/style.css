@@ -9,12 +9,9 @@ body {
 }
 
 .table-size table,th,td{
-    border: 1px solid black;
-    border-collapse: collapse;
     color: #484848;
     text-align: center;
     text-transform: uppercase;
-    vertical-align: middle;
 }
 
 tr:nth-child(n) {
@@ -23,6 +20,14 @@ tr:nth-child(n) {
 
 td{
     width: 275px;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    box-shadow: 2px 0 2px 0 #dadada;
+}
+
+td:last-of-type {
+    border: 0;
+    box-shadow: none;
 }
 
 .text-pricing-plan {
@@ -43,14 +48,17 @@ td{
 }
 
 .standart {
+    border: 0;
     background: #89c331;
 }
 
 .ultimate {
+    border: 0;
     background: #f04a56;
 }
 
 .premium {
+    border: 0;
     background: #20807c;
 
 }
@@ -98,13 +106,9 @@ td{
     background-color: #dedede;
 }
 
-.contact-us {
-    background-color: #434343;
-
-}
-
 .prop-text {
-    color: #848484;
+    color: #484848;
+    font-size: 16px;
 }
 
 .storage:before {
@@ -112,50 +116,50 @@ td{
     font-family: Font Awesome\ 5 Free;
     font-weight: 900;
     font-size: 24px;
-    vertical-align: middle;
+    color: #848484;
     margin-right: 10px;
 }
 
 .bandwidth:before {
     content: '\f382';
     font-family: Font Awesome\ 5 Free;
+    color: #848484;
     font-weight: 900;
     font-size: 24px;
-    vertical-align: middle;
     margin-right: 10px;
 }
 
 .email:before {
     content: '\f0e0';
     font-family: Font Awesome\ 5 Free;
+    color: #848484;
     font-size: 24px;
-    vertical-align: middle;
     margin-right: 10px;
 }
 
 .support:before {
     content: '\f1cd';
     font-family: Font Awesome\ 5 Free;
+    color: #848484;
     font-size: 24px;
-    vertical-align: middle;
     margin-right: 10px;
 }
 
 .products:before {
     content: '\f1b2';
     font-family: Font Awesome\ 5 Free;
+    color: #848484;
     font-weight: 900;
     font-size: 24px;
-    vertical-align: middle;
     margin-right: 10px;
 }
 
 .users:before {
     content: '\f0c0';
     font-family: Font Awesome\ 5 Free;
+    color: #848484;
     font-weight: 900;
     font-size: 24px;
-    vertical-align: middle;
     margin-right: 10px;
 }
 
@@ -169,4 +173,28 @@ td{
     text-transform: uppercase;
     color: #fff;
     cursor: pointer;
+}
+
+.contact-us {
+    border-top: 6px solid transparent;
+    background-color: #484848;
+    border-bottom: #404040 solid 6px;
+}
+
+.btn-std {
+    border-top: 6px solid transparent;
+    background: #89c331;
+    border-bottom: #7ab122 solid 6px;
+}
+
+.btn-ultimate {
+    border-top: 6px solid transparent;
+    background: #f04a56;
+    border-bottom: #e03744 solid 6px;
+}
+
+.btn-premium {
+    border-top: 6px solid transparent;
+    background: #20807c;
+    border-bottom: #16736f solid 6px;
 }
